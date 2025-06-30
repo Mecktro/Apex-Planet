@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressive Web Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Mecktro</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="toggle-btn"><i class="fas fa-bars"></i></button>
+    </nav>
+  </header>
 
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <h2>Welcome to My Web Project</h2>
+        <p>Explore my skills in HTML, CSS, and JavaScript with this interactive demo.</p>
+        <button class="cta-btn">Learn More</button>
+      </div>
+      <div class="hero-image">
+        <img src="https://via.placeholder.com/400" alt="Project Illustration">
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Featured Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>Dynamic To-Do List</h3>
+          <p>Add and remove tasks with ease.</p>
+        </div>
+        <div class="project-card">
+          <h3>Interactive Gallery</h3>
+          <p>Browse and manage your images.</p>
+        </div>
+        <div class="project-card">
+          <h3>Contact Form</h3>
+          <p>Submit your details securely.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Get In Touch</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Mecktro. All rights reserved.</p>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-github"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
